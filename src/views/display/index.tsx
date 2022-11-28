@@ -1,5 +1,5 @@
-import { FC } from "react"
-import { FetchNft } from "../../components/FetchNft"
+import { FC } from "react";
+import { FetchNft } from "../../components/FetchNft";
 
 export const DisplayView: FC = ({}) => {
   return (
@@ -14,5 +14,5 @@ export const DisplayView: FC = ({}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

@@ -1,22 +1,22 @@
-import { useConnection } from "@solana/wallet-adapter-react"
-import { PublicKey } from "@solana/web3.js"
-import { Metaplex } from "@metaplex-foundation/js"
-import { FC, useEffect, useState } from "react"
-import styles from "../styles/custom.module.css"
+import { useConnection } from "@solana/wallet-adapter-react";
+import { PublicKey } from "@solana/web3.js";
+import { Metaplex } from "@metaplex-foundation/js";
+import { FC, useEffect, useState } from "react";
+import styles from "../styles/custom.module.css";
 
 export const FetchCandyMachine: FC = () => {
-  const [candyMachineAddress, setCandyMachineAddress] = useState(null)
-  const [candyMachineData, setCandyMachineData] = useState(null)
-  const [pageItems, setPageItems] = useState(null)
-  const [page, setPage] = useState(1)
+  const [candyMachineAddress, setCandyMachineAddress] = useState(null);
+  const [candyMachineData, setCandyMachineData] = useState(null);
+  const [pageItems, setPageItems] = useState(null);
+  const [page, setPage] = useState(1);
 
-  const fetchCandyMachine = async () => {}
+  const fetchCandyMachine = async () => {};
 
-  const getPage = async (page, perPage) => {}
+  const getPage = async (page, perPage) => {};
 
-  const prev = async () => {}
+  const prev = async () => {};
 
-  const next = async () => {}
+  const next = async () => {};
 
   return (
     <div>
@@ -64,5 +64,5 @@ export const FetchCandyMachine: FC = () => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};

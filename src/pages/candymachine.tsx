@@ -1,6 +1,6 @@
-import type { NextPage } from "next"
-import Head from "next/head"
-import { CandyMachineView } from "../views"
+import type { NextPage } from "next";
+import Head from "next/head";
+import { CandyMachineView } from "../views";
 
 const CandyMachine: NextPage = (props) => {
   return (
@@ -11,7 +11,7 @@ const CandyMachine: NextPage = (props) => {
       </Head>
       <CandyMachineView />
     </div>
-  )
-}
+  );
+};
 
-export default CandyMachine
+export default CandyMachine;

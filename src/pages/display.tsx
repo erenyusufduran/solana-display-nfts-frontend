@@ -1,6 +1,6 @@
-import type { NextPage } from "next"
-import Head from "next/head"
-import { DisplayView } from "../views"
+import type { NextPage } from "next";
+import Head from "next/head";
+import { DisplayView } from "../views";
 
 const Display: NextPage = (props) => {
   return (
@@ -11,7 +11,7 @@ const Display: NextPage = (props) => {
       </Head>
       <DisplayView />
     </div>
-  )
-}
+  );
+};
 
-export default Display
+export default Display;

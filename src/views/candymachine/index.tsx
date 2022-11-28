@@ -1,5 +1,5 @@
-import { FC } from "react"
-import { FetchCandyMachine } from "../../components/FetchCandyMachine"
+import { FC } from "react";
+import { FetchCandyMachine } from "../../components/FetchCandyMachine";
 
 export const CandyMachineView: FC = ({}) => {
   return (
@@ -14,5 +14,5 @@ export const CandyMachineView: FC = ({}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

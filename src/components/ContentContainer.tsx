@@ -1,5 +1,5 @@
-import { FC } from "react"
-import Link from "next/link"
+import { FC } from "react";
+import Link from "next/link";
 export const ContentContainer: FC = (props) => {
   return (
     <div className="flex-1 drawer h-52">
@@ -32,5 +32,5 @@ export const ContentContainer: FC = (props) => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
